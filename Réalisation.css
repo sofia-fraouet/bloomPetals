@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url(rose.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #e13bc3;
+    text-align: center;
+    font-size: 22px;
+}
+
+.realisations {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 20px;
+    border: 10px solid #e13bc3;
+    border-radius: 20px; 
+    overflow: hidden;
+}
+
+.realisations img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+.realisations img:hover {
+    transform: scale(1.1);
+}
+footer {
+    color: #e13bc3;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+

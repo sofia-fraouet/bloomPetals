@@ -1,0 +1,65 @@
+.gallery img {
+    width: 200px;
+    height: 200px;
+    margin : 20px;
+    border-radius: 50%;
+    max-width: 100%;
+	height: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.A propos {
+    vertical-align : middle;
+    
+
+
+}
+
+.Engagement {
+    vertical-align : middle;
+
+}
+
+.Raison {
+    vertical-align : middle;
+    
+}
+
+.Service {
+    vertical-align : middle;
+}
+
+
+body {
+    background-color: rgb(165, 42, 87);
+    background: ;
+}
+
+h1 {
+    font-family: "cursive", cursive;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-decoration:underline;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+    perspective: 1000px; 
+}
+
+.colonne-gauche, .colonne-droite {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 20px; 
+    background-color: #e1bdd8;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s, box-shadow 0.5s;
+}

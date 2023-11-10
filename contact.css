@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(image11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    color: #f893da;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:underline;
+}
+
+
+div {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"],
+select,
+input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #e3a1e9;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #f4bbf4;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #c76596;
+}
+
+
+.contacts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    padding: 20px; 
+    text-align: left;
+    background-color: rgb(199, 164, 190);
+}
+
+.contacts li {
+    margin: 10px 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contacts li {
+    margin: 10px 0;
+}
+
+.nom {
+    font-weight: bold;
+}
+
+.email {
+    color: #ce67ce;
+}
+
+

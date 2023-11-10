@@ -1,0 +1,40 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contactez-nous</h1>
+    <div action="traitement.php" method="post">
+        <label for="civilite">Civilité :</label>
+        <select name="civilite" id="civilite">
+            <option value="M.">Monsieur</option>
+            <option value="Mme.">Madame</option>
+            <option value="Autre">Autre</option>
+        </select><br><br>
+        
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom" id="nom" required><br><br>
+        
+        <label for="prenom">Prénom :</label>
+        <input type="text" name="prenom" id="prenom" required><br><br>
+        
+        <label for="adresse">Adresse postale :</label>
+        <input type="text" name="adresse" id="adresse" required><br><br>
+        
+        <input type="checkbox" name="confidentialite" id="confidentialite" required>
+        <label for="confidentialite">J'accepte les politiques de confidentialité de l'entreprise</label><br><br>
+        
+        <input type="submit" value="Envoyer">
+    </div>
+
+    <h2>Contacts fictifs</h2>
+    <ul class="contacts">
+        <li><span class="nom">Sophia Fraouet </span> - <span class="email">Sophia.Fraouet@email.com</span></li>
+        <li><span class="nom">Kamelia mohamdi</span> - <span class="email">kamelia.mohamdi@email.com</span></li>
+        <li><span class="nom">Mayssa Bik</span> - <span class="email">Mayssa.Bik@email.com</span></li>
+    </ul>
+</body>
+</html>
